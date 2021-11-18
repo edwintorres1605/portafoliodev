@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "portafolio Edwin Torres - desarrollador web",
+  "main": "index.js",
+  "authors": {
+    "name": "Edwin Torres",
+    "email": "edwintorres.mec@gmail.com"
+  },
+  "repository": "https://github.com/edwintorres1605/portafoliodev/portfolio",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
