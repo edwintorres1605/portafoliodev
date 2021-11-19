@@ -1,15 +1,6 @@
----
-home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Portafolio Edwin Torres - desarrollador web
-actionText: Quick Start →
-actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by Edwin Torres with ❤️
----
+# Bienvenidos
+<img :src="$withBase('/img/perfil.png')" alt="Foto perfil" height="200px">
+
+<span style="font-size: 2.5em; font-weight: bold">Hola, soy <span style="color:#4070F4">Edwin Torres</span></span>
+<br />
+<span style="font-size: 2rem; font-weight: bold">Desarrollador Web</span>

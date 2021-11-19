@@ -1,14 +1,12 @@
-const { description } = require('../../package')
-
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Hola, soy Edwin Torres',
+  title: 'Edwin Torres',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Portafolio de Edwin Torres, desarrollador web',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -27,37 +25,31 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
     editLinks: false,
-    docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    dest: 'docs',
+    base: '/portafoliodev/',
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Inicio',
+        link: '/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Contacto',
+        link: 'mailto:edwintorres.mec@gmail.com',
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'GitHub',
+        link: 'https://github.com/edwintorres1605',
+      },
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      '/',
+      '/about/',
+      '/skills/',
+      '/work/',
+    ]
   },
 
   /**
