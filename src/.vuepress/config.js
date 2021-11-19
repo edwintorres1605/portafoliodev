@@ -1,4 +1,6 @@
 module.exports = {
+  dest: 'docs',
+  base: '/portafoliodev/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -27,9 +29,7 @@ module.exports = {
   themeConfig: {
     editLinks: false,
     editLinkText: '',
-    lastUpdated: false,
-    dest: 'docs',
-    base: '/portafoliodev/',
+    lastUpdated: false,    
     nav: [
       {
         text: 'Inicio',
@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/edwintorres1605',
+        link: 'https://github.com/edwintorres1605?tab=repositories',
       },
     ],
     sidebar: [
