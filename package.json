@@ -7,7 +7,7 @@
     "name": "Edwin Torres",
     "email": "edwintorres.mec@gmail.com"
   },
-  "repository": "https://github.com/edwintorres1605/portafoliodev/portfolio",
+  "repository": "https://github.com/edwintorres1605/portafoliodev/",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
